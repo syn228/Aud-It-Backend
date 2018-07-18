@@ -1,0 +1,2 @@
+class Convertedfile < ApplicationRecord
+end
