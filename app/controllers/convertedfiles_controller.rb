@@ -10,6 +10,7 @@ class ConvertedfilesController < ApplicationController
         @convertedfile.user_id = params[:user_id]
         @convertedfile.extension = params[:extension]
         @convertedfile.size = params[:size]
+        @convertedfile.text = params[:text]
         @convertedfile.save
     end
 

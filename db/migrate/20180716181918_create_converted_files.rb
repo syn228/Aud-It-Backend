@@ -5,6 +5,7 @@ class CreateConvertedFiles < ActiveRecord::Migration[5.2]
       t.integer :user_id
       t.string :extension
       t.integer :size
+      t.string :text
 
       t.timestamps
     end
