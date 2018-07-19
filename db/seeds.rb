@@ -8,4 +8,4 @@
 
 aaron = User.create(username: "aarongy", password:"a", first_name:"aaron", last_name:"na")
 
-file = Convertedfile.create(name: "my doc!", user_id: User.first.id, extension: "pdf", size: 5000, text: "WOW")
+file = Convertedfile.create(name: "my doc!", user_id: User.first.id, extension: "pdf", size: 5000, text: "WOW", confidence: 95)

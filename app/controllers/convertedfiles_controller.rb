@@ -11,6 +11,7 @@ class ConvertedfilesController < ApplicationController
         @convertedfile.extension = params[:extension]
         @convertedfile.size = params[:size]
         @convertedfile.text = params[:text]
+        @convertedfile.confidence = params[:confidence]
         @convertedfile.save
     end
 

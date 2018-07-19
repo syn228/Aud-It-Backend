@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2018_07_16_181918) do
     t.string "extension"
     t.integer "size"
     t.string "text"
+    t.integer "confidence"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
