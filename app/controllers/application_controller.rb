@@ -4,7 +4,7 @@ class ApplicationController < ActionController::API
     end
 
     def authorization_token
-    token = request.headers["Authorization"]
+        token = request.headers["Authorization"]
     end
 
     def decoded_token

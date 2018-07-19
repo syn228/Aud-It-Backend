@@ -3,7 +3,7 @@ class SessionsController < ApplicationController
         @user = User.find_by(username: params["username"])
 
         if (@user && @user.authenticate(params["password"]))
-            payload = { name: params["username"], first_name: params["first_name"], last_name: params["last_name "]}         
+            payload = { id: @user.id, username: params["username"]}
             render json: {
                 username: @user.username,
                 id: @user.id,
