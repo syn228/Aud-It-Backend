@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :uploads
   resources :convertedfiles
   resources :users, only: [:create, :show]
   resources :sessions, only: [:create]

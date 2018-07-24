@@ -10,3 +10,5 @@ aaron = User.create(username: "aarongy", password:"a", first_name:"aaron", last_
 
 file1 = Convertedfile.create(name: "my doc!", user_id: User.first.id, extension: "pdf", size: 5000, text: "WOW", confidence: 95)
 file2 = Convertedfile.create(name: "my doc2!", user_id: User.first.id, extension: "image/jpeg", size: 7000, text: "this is a longer example that I would like to test with moving forward", confidence: 90)
+
+upload1 = Upload.create(name: "filename", path: "/good/path")
