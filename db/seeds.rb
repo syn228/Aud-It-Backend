@@ -8,7 +8,7 @@
 
 aaron = User.create(username: "aarongy", password:"a", first_name:"aaron", last_name:"na")
 
-file1 = Convertedfile.create(name: "my doc!", user_id: User.first.id, text: "WOW")
-file2 = Convertedfile.create(name: "my doc2!", user_id: User.first.id, text: "this is a longer example that I would like to test with moving forward")
+file1 = Convertedfile.create(name: "my doc!", user_id: User.first.id, size: 500, text: "WOW")
+file2 = Convertedfile.create(name: "my doc2!", user_id: User.first.id, size: 50000, text: "this is a longer example that I would like to test with moving forward")
 
 upload1 = Upload.create(name: "filename", path: "/good/path")
