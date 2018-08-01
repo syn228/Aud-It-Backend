@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
             }
         else
             render json: {
-                errors: "Those credentials don't match anything we have in our database"
+                errors: "Your username or password is wrong. Please try again."
             }, status: :unauthorized
         end
     end
