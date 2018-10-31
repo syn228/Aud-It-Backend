@@ -1,25 +1,14 @@
-# README
+## Aud-It
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Converts image files (jpeg, png, etc.) as well as image captures into an audio source.
 
-Things you may want to cover:
+## Goals
 
-* Ruby version
+I designed this project during my last module at Flatiron School as my Capstone Project. 
+The objective of the application was to allow users to turn any documents with text into a listen-able source, much like an audiobook. 
+The intended audience of this application would be for those who prefer to listen to materials rather than reading them on a book/screen.
 
-* System dependencies
+## Steps
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# Aud-It-Backend
+Fork and clone the repository, `npm install` then `rails s -p 4000`
+(You will need the frontend as well at: https://github.com/syn228/Aud-It-Frontend)
